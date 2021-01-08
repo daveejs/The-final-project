@@ -1,0 +1,203 @@
+.info{
+    width: auto;
+    height: 440px;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-wrap:wrap;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.info-small, .info-small1 {
+    background-color: var(--white);
+    height: 200px;
+    width: 46.5%;
+    margin: 1.5% 0.5% -2% 2.5%;
+    margin-top: -130px;
+    border-radius: 6px;
+    border: 1.5px solid #EDEEF0;
+    display: flex;
+    padding: 2%;
+}
+
+.info-big {
+    background-color: var(--white);
+    height: 260px;
+    width: 46.5%;
+    margin: -2% 0.5% 1.5% 2.5%;
+    border-radius: 6px;
+    border: 1.5px solid #EDEEF0;
+    display: flex;
+    padding: 2%;
+}
+
+.info-content {
+    width: 75%;
+}
+
+.info-image {
+    width:25%;
+   padding-left:7%;
+   padding-top: 13%;
+    
+}
+
+.info-image img {
+    max-width:100%;
+    
+}
+
+h5 {
+    font-size: var(--medium-big);
+    padding-bottom: 5%;
+}
+
+.info-content p {
+    font-size: var(--medium);
+    color: var(--text-gray);
+}
+
+.debit {
+    margin-top: -40%;
+    padding-bottom: 40%;
+}
+
+.fscs {
+    padding-top: 20%;
+}
+
+.overdraft {
+    max-width:90%;
+}
+
+
+    
+
+@media (max-width:1100px) {
+    .info{
+    display:block;
+    padding-bottom:3%;
+    height:auto;
+    padding-left:15%;
+    padding-top:3%;
+    }
+
+    .info-small, .info-small1, .info-big{
+    margin: 0% 1% 4% 2%;
+    width: 80%;
+    height: auto;
+    }
+
+    .info-small1 {
+    margin-top: -140px;
+    }
+
+    .info-image img {
+        margin-top: -40%;
+    }
+    
+
+}
+
+
+    @media (max-width:1000px) {
+        .info {
+            padding-left: auto;
+            padding-right: auto;
+            width: auto;
+            
+        }
+    }
+
+    @media (max-width:930px) {
+        .info-small, .info-big, .info-small1 {
+            width: auto;
+        }
+            .info {
+                padding-left:7%;
+                padding-right: 7%;
+            }
+
+            .info-small, .info-big, .info-small1 {
+                margin: 0% 0% 4% 0%;
+                
+             }
+             .info-small1 {
+                margin-top: -140px;
+                }
+
+            .info-image img {
+                margin-top: -40%;
+            }
+                    
+    }
+
+        @media (max-width: 770px) {
+            .info-image img {
+                margin-top: -30%;
+            }
+        }
+
+            @media (max-width: 650px) {
+                .info-image img {
+                    margin-top: -22%;
+                }
+            }
+
+                @media (max-width: 580px) {
+                    .info-image img {
+                        margin-top: -12%;
+                    }
+                }
+
+              @media (max-width:550px) {
+                    .info {
+                        padding-left:4%;
+                        padding-right: 4%;
+                    }        
+                        .info-small, .info-big, .info-small1{
+                            display: block;
+                            padding-left: 6%;
+                            padding-right: 6%;
+                        }
+
+                            .info-image{
+                                padding-top: 5%;
+                                width: 28%;
+                                margin-left: 31%;
+                            }
+
+                            .info-image img {
+                                width: 120px;
+                                
+                                }
+
+                                .debit {
+                                    margin-top: 0%;
+                                }
+
+                                .info-content p {
+                                    width: 135%;
+                                }
+        }
+
+                               @media (max-width:480px) {
+                                .info-image{
+                                    padding-top: 6.5%;
+                                    width: 32%;
+                                    margin-left: 29.5%;
+                                }
+
+                                    @media (max-width:380px) {
+                                        .info-image{
+                                            padding-top: 6.5%;
+                                            width: 38%;
+                                            margin-left: 29%;
+                                        }
+
+                                        @media (max-width:330px) {
+                                            .info-image{
+                                                padding-top: 7.5%;
+                                                width: 41%;
+                                                margin-left: 27.5%;
+                                            }

@@ -1,0 +1,95 @@
+.info-pic {
+    height: 610px;
+    width: auto;
+    background-color: var(--gray);
+}
+
+.info-pic-image {
+    background-image:url("../../img/images/images-current-account/current-account.jpg");
+    height: 610px;
+    width: auto;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+
+.info-pic-content {
+    position: absolute;
+    left: auto;
+    padding-left: 6%;
+    color: white;
+    margin-top: -25%;
+}
+.info-pic-content p{
+    color: var(--light-gray);
+}
+
+h4{
+    font-size: var(--bigger);
+    padding-bottom: 4%;
+}
+
+@media (max-width:1100px){
+    .info-pic-content {
+        margin-top: -32%;
+    }
+}
+
+    @media (max-width:920px){
+        .info-pic-content {
+            margin-top: -42%;
+        }
+    }
+
+        @media (max-width:920px){
+            .info-pic-content {
+                margin-top: -44%;
+            }
+        }
+
+            @media (max-width:700px){
+                .info-pic-content {
+                    margin-top: -53%;
+                }
+            }
+
+                @media (max-width:580px){
+                    .info-pic-content {
+                        margin-top: -70%;
+                        padding-right: 6%;
+                    }
+                    h4 {
+                        font-size:  30px;
+                    }
+                }
+
+                     @media (max-width:490px){
+                         .info-pic-content {
+                               margin-top: -82%;
+                         }
+                    }
+
+                        @media (max-width:475px){
+                            .info-pic-content {
+                                margin-top: -90%;
+                            }
+                         } 
+                         
+                            @media (max-width:400px){
+                                .info-pic-content {
+                                    margin-top: -98%;
+                                }
+                            }  
+                            
+                                @media (max-width:360px){
+                                    .info-pic-content {
+                                        margin-top: -114%;
+                                    }
+                                }
+                                
+                                    @media (max-width:320px){
+                                        .info-pic-content {
+                                            margin-top: -124%;
+                                        }
+                                    }   

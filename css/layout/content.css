@@ -1,0 +1,182 @@
+.content{
+    background-color:var(--white);
+    height:700px;
+    width: auto;
+    display: flex;
+    
+}
+.content-main, .content-image {
+    width: 50%;
+}
+
+
+.content-image img {
+    display:block;
+    position: center;
+    max-height: 630px;
+    padding-top: 12%;
+    padding-left: 16%;
+}
+
+.content-main {
+    padding-left: 6%;
+    padding-top:9%;
+}
+
+.content-icons {
+    display:flex;
+
+}
+
+.content-icons img{
+
+        width: auto;
+        height: 35px;
+    
+}
+
+.content-parts {
+    padding-bottom:6.5%;
+}
+
+.content-parts p {
+    padding-left:11%;
+    padding-top:3.5%;
+}
+
+h2 {
+    font-size: var(--bigger);
+    padding-bottom: 6.5%;
+}
+
+h3 {
+    font-size: var(--medium);
+    padding-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+@media (max-width: 1100px){
+    
+    .content-image{
+        padding-right:3%;
+        width:55%;
+    }
+    .content-main {
+        width:45%;
+    }
+
+    .content-parts p {
+        padding-top: 4.5%;
+    }
+    .content-parts {
+        padding-bottom: 7%;
+    }
+
+    .content-main {
+        padding-top: 10%;
+    }
+
+    h2{
+        padding-bottom: 7%;
+    }
+    .content-main {
+        padding-left: 4%;
+    }
+
+    .content-image img {
+        
+        padding-top: 16%;
+        padding-left: 14%;
+    }
+}
+
+@media (max-width: 850px){
+
+    .content-image img {
+        
+        padding-top: 25%;
+        padding-left: 11%;
+    }
+    .content-main {
+        padding-top: 14%;
+    }
+
+}
+
+
+@media (max-width: 790px){
+
+    .content-main {
+        padding-top: 10%;
+    }
+    .content-image img {
+        
+        padding-top: 32%;
+        padding-left: 9%;
+    }
+
+
+}
+
+@media (max-width: 790px){
+    .content {
+        display:block;
+        height: auto;
+    }
+
+    .content-main, .content-image {
+        width: auto;
+        height: auto;
+    }
+
+    .content-image {
+        padding-bottom: 4%;
+    }
+    .content-main {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .content-image img {
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: -35%;
+    }
+    .content-parts p {
+        padding-top: 2.5%;
+    }
+    .content-parts  {
+        padding-bottom: 3.5%;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .content-image img {
+        
+        padding-top: 38%;
+        padding-left: 8%;
+    }
+}
+
+@media (max-width: 763px){
+
+    .content-icons {
+      display:block;      
+    }
+    .content-parts p, h3 {
+        padding-left: 0%;
+    }
+    .content-parts p {
+        padding-bottom: 2.5%;
+    }
+
+    h2 {
+        font-size:  29px;
+    }
+  
+}

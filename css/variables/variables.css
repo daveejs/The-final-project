@@ -1,0 +1,21 @@
+html {
+  /* --variable-name: value; */
+
+/* --COLORS*/
+--blue: #14233C;
+--light-gray: #F8F8F8;
+--white: #FFFFFF;
+--gray: #A2AAB9;
+--text-gray: #4F5B6D;
+
+/*SIZES*/
+
+--huge: 44px;
+--bigger: 32px;
+--big: 28px;
+--medium-big: 25.5px;
+--medium: 17.5px;
+--small: 14px;
+
+
+}
